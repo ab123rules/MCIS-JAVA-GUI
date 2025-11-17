@@ -6,8 +6,8 @@ import java.sql.*;
 public class dbmcis extends JFrame {
     //database connection details are kept as final as we sectioned each action seperately
     private static final String DB_URL = "jdbc:oracle:thin:@oracle.scs.ryerson.ca:1521:orcl";
-    private static final String USER = "****";
-    private static final String PASS = "****";
+    private static final String USER = "USER";
+    private static final String PASS = "PASS";
     private JTextArea outputArea = new JTextArea(18, 80);
 
     //query labels for dropdown as a string array
@@ -239,4 +239,5 @@ public class dbmcis extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new dbmcis().setVisible(true)); //to start gui
     }
+
 }
