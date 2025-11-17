@@ -9,4 +9,3 @@ To run the program follow the below steps:
 4. Run the following lines of code in your terminal:
    a. javac -cp ".;ojdbc17.jar" dbmcis.java
    b. java -cp ".;ojdbc17.jar" dbmcis
-
